@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.App {
+background-image: url(./pexels/pexels_lukas.jpg);
+ background-repeat: no-repeat;
+  background-size: cover;
+/*   text-align: center;
+ */ background-color: white; 
+ font-family: 'Roboto', sans-serif;
+
+}
+
+.back_pink{
+  background-color: pink;
+}
+
+.col1{
+/*   background-color: rgba(255, 255, 255, 0.5);
+ */  width: 70%;
+}
+
+.col2{
+/*   background-color: rgba(255, 255, 255, 0.5);
+ */  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col2 h3{
+  color: black;
+  font-size: 200%;
+}
+
+.comment{
+  background-color: cyan;
+}
+
+.Footer{
+/*   background-color: palevioletred;
+ */
+ background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* De Dashboard Screen */
+.iconos{
+ display: flex;
+  justify-content: center;
+  padding: 12% 1%;
+/* opacity: .7;
+ */}
+
+.iconos_in{
+  background-color: rgba(255, 255, 255, 0.5);
+ display: flex;
+ padding: 1%;
+ width: 70%;
+ flex-wrap: wrap;
+  
+}
+
+.icons_each{
+/*   background-color: whitesmoke;
+ */  padding: 2%;
+}
+
+.img_tec{
+  background-color: whitesmoke;
+  height: 50px;
+}
+
+.list-table, .list-table th, .list-table td{
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+
+.list{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+ padding-left: 7%;
+  font-family: 'Roboto', sans-serif;
+  padding: 1%;
+}
+
+.nav1{
+  background-color: cyan;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav2{
+  background-color: pink;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
+}
+
+.nav2_data{
+/*   background-color: yellow;
+ */ 
+ display: flex;
+ flex-direction: row;
+ margin: 1%;
+  
+}
+
+.nav2_data p{
+/*   padding: 3%;
+ */
+margin: 1%;
+}
+
+.navbar h1{
+/*   font-family: 'Roboto', sans-serif;
+ */
+margin-left: 7%;
+}
+
+/* Stocks Imagenes  */
+
+.stocks1,.stocks2,.stocks3{
+/*   background-color: red;
+ */  padding: 1%;
+}
+
+.stocks1{
+/*   background-color: red;
+ */  
+/*  position: absolute;
+ */ 
+margin-left: 5%;}
+
+.stocks2{
+  margin-left: 9%;
+}
+
+.stocks3{
+  margin-left: 7%;
+}
+
+.stock_images{
+/*   background-color: cyan;
+ */  
+/*  background-color: rgba(255, 255, 255, 0.5);
+ */
+  display: flex;
+  flex-direction: row;
+/*   align-items: center;
+ */}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
