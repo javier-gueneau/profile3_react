@@ -40,6 +40,7 @@ const Dashboard_screen=()=>{
 
             </div>
       <Footer/>
+      
         </div>
 
     )
